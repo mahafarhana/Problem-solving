@@ -10,9 +10,7 @@ class Solution {
                 }
             }
            
-             list[i]= count;
-             System.out.println(list);
-            
+             list[i]= count;  
         }
         return list;
     }
