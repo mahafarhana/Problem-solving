@@ -8,18 +8,18 @@ class Solution {
         if(s.trim().equalsIgnoreCase("")){
             return true;
         }else if(c.length>0){
-            int i=c.length-1;
-                do{
-                     reverseValue+=String.valueOf(c[i]);
-                    i--;
-                }
-            while(i>=0);
+            // int i=c.length-1;
+            //     do{
+            //          reverseValue+=String.valueOf(c[i]);
+            //         i--;
+            //     }
+            // while(i>=0);
 //              System.out.println(c[20]);
-//             for(int i=c.length-1;i<=0;i--){
-//                 
-//                 reverseValue+=c[i];
+            for(int i=c.length-1;i>=0;i--){
+                
+                 reverseValue+=String.valueOf(c[i]);
                
-//             }
+            }
         }
        
         if(original.equalsIgnoreCase(reverseValue)){
